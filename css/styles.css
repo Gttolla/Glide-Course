@@ -1,0 +1,104 @@
+/* Page Fonts */
+html{
+    margin: 5vh 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#nav{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding-bottom: 3vh;
+    padding: 0;
+    margin-top: 0;
+}
+.navbar-brand{
+    width: 100%;
+}
+.nav-link{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-right: 1vh;
+}
+.nav-link:hover{
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #dc354642;
+}
+.nav-link[aria-current="page"]{
+    background-color: #dc3545;
+    color: #eee;
+}
+#space1, #space2{
+    margin-right: 3vh;
+}
+    /* Progress Bar */
+    .progress-bar{
+        width: 100%;
+        height: 2vh;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 10px 10px 0 0;
+    }
+    .progress{
+        height: 100%;
+        border-radius: 10px 0 0 0;
+        background-color: #dc3545;
+    }
+
+/* Pages */
+.title{
+    margin-top: 3vh;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+}
+.img{
+    margin: 5vh 0;
+}
+.full{
+    width: 100%;
+}
+.marker{
+    font-size: 20px;
+    font-weight: bold;
+}
+.box{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding: 3vh;
+}
+
+/* Mobile */
+@media(max-width: 991px){
+    html{
+        margin-top: 0;
+    };
+
+    /* Navbar */
+    #nav{
+        margin-top: 0;
+    }
+    .progress-bar, .progress{
+        border-radius: 0;
+    }
+    .nav-link[aria-current="page"]{
+        padding-left: 10px;
+    }
+    #space1, #space2{
+        margin-right: 0;
+    }
+    #space1{
+        margin-top: 2vh;
+    }
+
+    /* Pages */
+    .rounded{
+        width: 100%;
+    }
+}
+
+
+
